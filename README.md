@@ -10,19 +10,16 @@ El siguiente html, puedes ubicarlo dónde gustes.
 
 ```html
 <div class="appjs-newsletter">
-
 	<div class="appjs-newsletter__left">
 		<span class="appjs-newsletter__header">
-			 <i class="fa fa-external-link-alt"></i> noticias
+			 Noticias
 		</span>
 	</div>
-
 	<div class="appjs-newsletter__right">
 		<ul class="appjs-newsletter__post" data-newsletterTime="3000">
 			<span class="appjs-newsletter__info">Cargando...</span>
 		</ul>
 	</div>
-
 </div>
 ```
 
@@ -64,9 +61,9 @@ var option = {
 }
 
 /*!
- * appjs-newsletter | v1.0.4
- * Copyright 2018 byzerblogger
- * Developed by Marcelo Toledo (KuroSensei)
+ * appjs-newsletter | v1.0
+ * Copyright 2018 byzerblogger (github.com/KuroSensei/appjs-newsletter/blob/master/LICENSE)
+ * Developed by Marcelo Toledo
  */
 
 //<![CDATA[
