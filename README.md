@@ -1,15 +1,3 @@
-// opciones
-var option = {
-	pageURL: 'https://www.byzeroblogger.com/',
-	container: '.appjs-newsletter__post',
-	length: 6,
-	image: 's36-c',
-	label: 'blogger',
-	isPublished: true,
-	isThumbnail: true,
-	isSummary: true
-}
-
 # appjs-newsletter
 
 > Sencillo boletín de noticias para blogger basado en los feed del blog.
@@ -40,7 +28,22 @@ El siguiente html, puedes ubicarlo dónde gustes.
 
 ## Estilos css
 
-> dist/newsletter.min.css
+Via rawgit.com
+
+```html
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/KuroSensei/appjs-newsletter/69655826/dist/newsletter.min.css">
+```
+
+o bien:
+
+```html
+<style>
+@charset "UTF-8";
+/*! appjs-newsletter v1.0 © 2018 */
+.appjs-newsletter{background:#fff;color:rgba(0, 0, 0, 0.7);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow-x:hidden}.appjs-newsletter__header{background:#05C46B;color:#fff;padding:16px;font-weight:500;display:-webkit-box;display:-ms-flexbox;display:flex;font-size:14px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative}.appjs-newsletter__header i{margin-right:8px;display:inline-block;vertical-align:middle}.appjs-newsletter__header svg{width:24px;height:24px;fill:#fff}.appjs-newsletter__info{padding:0 32px;display:block;font-weight:500;font-size:14px;color:rgba(0, 0, 0, 0.5)}.appjs-newsletter__right{width:100%}.appjs-newsletter__post{margin:0;padding:0}.appjs-newsletter__item{padding:0 16px;list-style:none;display:none}.appjs-newsletter__item.active{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-animation:1s jump forwards;animation:1s jump forwards}.appjs-newsletter__thumbnail{width:36px;height:36px}.appjs-newsletter__thumbnail img{width:100%;height:100%;border-radius:50%}.appjs-newsletter__contain{width:calc(100% - 36px);padding:0 16px}.appjs-newsletter__title{width:calc(100% - 36px);font-size:14px;text-decoration:none;color:rgba(0, 0, 0, 0.75);font-weight:500;padding-right:32px;padding-bottom:4px;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:block;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s}.appjs-newsletter__title:hover{color:#05C46B}.appjs-newsletter__summary{width:calc(100% - 36px);font-size:12px;text-decoration:none;color:rgba(0, 0, 0, 0.45);font-weight:500;padding-right:16px;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:block}.appjs-newsletter__meta{background:#f5f5f5;color:rgba(0, 0, 0, 0.5);font-size:8px;line-height:normal;border-radius:4px;margin:0 8px;display:inline-block;vertical-align:middle;padding:3px}@-webkit-keyframes jump{0%{opacity:0}to{opacity:1}}@keyframes jump{0%{opacity:0}to{opacity:1}}
+
+</style>
+```
 
 ## Javascript
 
